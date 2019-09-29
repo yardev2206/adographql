@@ -14,3 +14,12 @@ Route.route('/graphql', ({ request, auth, response }) => {
 Route.get('/graphiql', ({ request, response }) => {
     return GraphqlAdonis.graphiql({ endpointURL: '/graphql' }, request, response)
 })
+
+
+Route.get('/', async function() {
+
+    const Alumno = use('App/Models/Alumno');
+    const alumnos = await Alumno.first();
+
+    return alumnos.toJSON();
+});
