@@ -2071,6 +2071,11 @@ one-time@0.0.4:
   resolved "https://registry.yarnpkg.com/one-time/-/one-time-0.0.4.tgz#f8cdf77884826fe4dff93e3a9cc37b1e4480742e"
   integrity sha1-+M33eISCb+Tf+T46nMN7HkSAdC4=
 
+oracledb@^4.0.1:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/oracledb/-/oracledb-4.2.0.tgz#b4d97957d206f7c2d1c2286cc80e91ff2d45fce8"
+  integrity sha512-07ZylNcUB9wknsiRa7dNqDWgGK3loP8eNWuoCjsiCOZ19PA1g8QLu+0gah7ty82VXl/MOQYFCMl5OpjD9Aqjcw==
+
 os-homedir@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/os-homedir/-/os-homedir-1.0.2.tgz#ffbc4988336e0e833de0c168c7ef152121aa7fb3"
@@ -2626,9 +2631,9 @@ serve-static@^1.13.2:
     send "0.17.1"
 
 set-getter@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/set-getter/-/set-getter-0.1.0.tgz#d769c182c9d5a51f409145f2fba82e5e86e80376"
-  integrity sha1-12nBgsnVpR9AkUXy+6guXoboA3Y=
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/set-getter/-/set-getter-0.1.1.tgz#a3110e1b461d31a9cfc8c5c9ee2e9737ad447102"
+  integrity sha512-9sVWOy+gthr+0G9DzqqLaYNA7+5OKkSmcqjL9cBpDEaZrr3ShQlyX2cZ/O/ozE41oxn/Tt0LGEM/w4Rub3A3gw==
   dependencies:
     to-object-path "^0.3.0"
 
